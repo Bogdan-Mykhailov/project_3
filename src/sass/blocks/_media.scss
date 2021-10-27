@@ -1,3 +1,32 @@
+@media (max-width: 1100px) {
+    .carousel {
+        .tns-item {
+            img {
+                width: 80%;
+            }
+        }
+        .tns-nav {
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 30px;
+            button {
+                background-color: gray;
+                border: none;
+                border-radius: 9px;
+                height: 3px;
+                margin: 0 7px 0 7px;
+            }
+        .tns-nav-active {
+            background-color: #c70101;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+        
+    }
+}
 @media (max-width: 991px) {
     .header {
         &__logo {
@@ -65,6 +94,39 @@
     .feed-form {
         padding-left: 40px;
     }
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
+    .carousel {
+        .tns-item {
+            img {
+                width: 75%;
+            }
+        }
+        .tns-nav {
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 25px;
+            button {
+                background-color: gray;
+                border: none;
+                border-radius: 9px;
+                height: 3px;
+                margin: 0 7px 0 7px;
+            }
+        .tns-nav-active {
+            background-color: #c70101;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+        
+    }
+    
 }
 @media (max-width: 767px) {
     .header {
@@ -160,6 +222,34 @@
     .feed-form {
         padding-left: 40px;
     }
+    .carousel {
+        padding: 40px 0;
+        .tns-item {
+            img {
+                width: 70%;
+            }
+        }
+        .tns-nav {
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 25px;
+            button {
+                background-color: gray;
+                border: none;
+                border-radius: 9px;
+                height: 3px;
+                margin: 0 5px 0 5px;
+            }
+        .tns-nav-active {
+            background-color: #c70101;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+        
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -241,6 +331,65 @@
         &_submit {
             height: 45px;
         }
+    }
+    .carousel {
+        .tns-item {
+            img {
+                width: 65%;
+            }
+        }
+        .tns-nav {
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 25px;
+            button {
+                background-color: gray;
+                border: none;
+                border-radius: 8px;
+                height: 2px;
+                margin: 0 5px 0 5px;
+            }
+        .tns-nav-active {
+            background-color: #c70101;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+         
+        
+    }
+}
+@media (max-width: 320px) {
+    .carousel {
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
+        padding: 40px 0;
+        .tns-nav {
+            margin: 0 3px 0 3px;
+            position: relative;
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 25px;
+            button {
+                background-color: gray;
+                border: none;
+                border-radius: 8px;
+                height: 2px;
+                margin: 0 5px 0 5px;
+            }
+        .tns-nav-active {
+            background-color: #c70101;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+        
     }
 }
 
